@@ -26,9 +26,7 @@ dependencies:
   flutter_localizations: # flutter.dev
     sdk: flutter
 
-
   #-----flutter.dev, dart.dev--------
-
 
   path_provider: 2.0.11 # flutter.dev (Note: Supports null safety)
 
@@ -44,9 +42,7 @@ dependencies:
 
   crypto: 3.0.1 # dart.dev (Note: Supports null safety)
 
-
   #-------fluttercommunity.dev------
-
 
   connectivity_plus: # newly added, wasn't reviewed
     git:
@@ -54,16 +50,13 @@ dependencies:
       path: packages/connectivity_plus/connectivity_plus/
       ref: d293b60a77313cc697542724f00186cb09187103 #2.3.6
 
-  
   package_info_plus: # newly added, wasn't reviewed
     git:
       url: https://github.com/KomodoPlatform/plus_plugins.git
       path: packages/package_info_plus/package_info_plus/
       ref: 08a7a35502d2498ea3dd1473445b4511dea35518 #1.4.2
 
-
   #------------3rd party-------------
-
 
   audioplayers: # last reviewed 859c88c2c3fe926bdbb6e5e729d3c16d088be76a
     git:
@@ -126,18 +119,18 @@ dependencies:
       url: https://github.com/KomodoPlatform/sqflite.git
       path: sqflite/
       ref: 85d84b6f656764e4a4d6632dcc9913f4f47011e5 #2.0.0+4
-  
+
   flutter_secure_storage: # last reviewed eef67d3d006b2c53453df183f7d4ac081948e110
     git:
       url: https://github.com/KomodoPlatform/flutter_secure_storage.git
       path: flutter_secure_storage/
       ref: 26efe91a75228ad8c8626d6eea18f7f3cb21bdd9 #5.0.2
- 
+
   flutter_slidable: # last reviewed 27bbe0dfa9866ae01e8001267e873221ef5fbd67
     git:
       url: https://github.com/KomodoPlatform/flutter_slidable.git
       ref: 175b0735f5577dd7d378e60cfe2fe1ca607df9fa #1.1.0
-  
+
   decimal: # last reviewed 93fcaabe2da686b1987a351a03a70e86edf6504f
     git:
       url: https://github.com/KomodoPlatform/dart-decimal.git
@@ -157,14 +150,13 @@ dependencies:
       url: https://github.com/KomodoPlatform/dart-uuid.git
       ref: c9a37bc675fd3fa715db2d929dc66d15ec09ad27 #3.0.5
 
-
 dev_dependencies:
   integration_test:
     sdk: flutter
 
   # recommended linter rules
   flutter_lints: 1.0.4 # flutter.dev (Note: Supports null safety)
-  
+  flutter_launcher_icons:
 
 flutter_icons:
   android: true
@@ -179,24 +171,23 @@ flutter_icons:
 flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
-  - assets/
-  - assets/branding/
-  - assets/branding/svg/
-  - assets/audio/
-  - assets/mocks/
-  - assets/currency-flags/
-  - assets/language-flags/
-  - assets/coin-icons/
-  - assets/svg/
-  - assets/svg_light/
-  - assets/swap_share/
-  - assets/coins.json
+    - assets/
+    - assets/branding/
+    - assets/branding/svg/
+    - assets/audio/
+    - assets/mocks/
+    - assets/currency-flags/
+    - assets/language-flags/
+    - assets/coin-icons/
+    - assets/svg/
+    - assets/svg_light/
+    - assets/swap_share/
+    - assets/coins.json
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.

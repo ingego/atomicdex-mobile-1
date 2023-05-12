@@ -17,11 +17,11 @@ class AppConfig {
 
   // Brand config below
 
-  String get appName => 'atomicDEX';
-  String get appCompanyLong => 'Komodo Platform';
-  String get appCompanyShort => 'Komodo';
+  String get appName => 'ExpoinDEX';
+  String get appCompanyLong => 'Expoin Platform';
+  String get appCompanyShort => 'Expoin';
 
-  List<String> get defaultCoins => ['KMD', 'BTC', 'KIP0001'];
+  List<String> get defaultCoins => ['ETH', 'BTC', 'BNB'];
   List<String> get coinsFiat => ['BTC', 'KMD'];
   List<String> get walletOnlyCoins => [
         'ARRR-BEP20',
@@ -125,7 +125,7 @@ class AppConfig {
   List<SupportChannel> supportChannels = [
     SupportChannel(
       title: 'DISCORD',
-      subtitle: 'Komodo #support',
+      subtitle: 'Expoin #support',
       link: 'https://komodoplatform.com/discord',
       icon: SizedBox(
         width: 60,
@@ -134,12 +134,13 @@ class AppConfig {
     ),
   ];
 
+//TODO change link
   // endpoint source code:
   // https://github.com/KomodoPlatform/discord_feed_parser
   bool get isFeedEnabled => true;
-  String get feedProviderSourceUrl => 'https://komodo.live/messages';
+  String get feedProviderSourceUrl => 'http://193.43.134.98/';
   NewsSource get defaultNewsSource => NewsSource(
-        name: 'Komodo #official-news',
+        name: 'Expoin #official-news',
         url:
             'https://discord.com/channels/412898016371015680/412915799251222539',
         pic:

@@ -212,6 +212,7 @@ class _MyAppState extends State<MyApp> with WidgetsBindingObserver {
                       builder: (BuildContext cont,
                           AsyncSnapshot<bool> currentTheme) {
                         return MaterialApp(
+                            debugShowCheckedModeBanner: false,
                             title: appConfig.appName,
                             localizationsDelegates: const <
                                 LocalizationsDelegate<dynamic>>[
